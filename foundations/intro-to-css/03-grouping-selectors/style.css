@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+
+.blackbut {
+    background-color: black;
+    color: white;
+}
+
+.yellowbut {
+    background-color: yellow;
+}
+
+.both {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", with sans-serif;
+}
