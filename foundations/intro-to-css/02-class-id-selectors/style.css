@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+
+.oddpink {
+    background-color: rgb(237, 140, 156);
+    font-style: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#ID2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.header3 {
+    font-size:24px;
+}
+
+#ID4 {
+    background-color: rgb(90, 217, 90);
+    font-weight: bold;
+}
