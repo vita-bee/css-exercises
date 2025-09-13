@@ -9,7 +9,7 @@
     background-color: yellow;
 }
 
-.both {
+.yellowbut, .blackbut {
     font-size: 28px;
     font-family: Helvetica, "Times New Roman", with sans-serif;
 }
