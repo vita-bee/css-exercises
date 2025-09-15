@@ -4,28 +4,33 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction:column;
-  align-content: center;
+  
 }
 
 .header {
-  height: 30px;
+  height: 72px;
   background: darkmagenta;
   color: white;
   padding: 10px;
   font-weight: 900;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  align-items: center; /* why does align items go here instead of where disply flex is defiend? */
 }
 
 .footer {
-  height: 25px;
+  height: 72px;
   background: #eee;
   color: darkmagenta;
-  text-align: center;
-  padding:15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   flex-shrink: 0;
-  width: 140px;
+  padding: 16px;
   background: royalblue;
   box-sizing: border-box;
 }
@@ -35,17 +40,16 @@ body {
   width:200px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 10px;
-  margin: 10px;
+  padding: 15px;
 }
 
 .flex-container-row {
   display: flex;
-  justify-content: space-between;
-  gap: 25px;
+  flex:1;
 }
 
 ul {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
   margin: 0px;
@@ -61,6 +65,8 @@ a {
 }
 
 .content {
+  padding: 48px;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
+  gap: 32px;
 }
